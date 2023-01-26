@@ -2,4 +2,4 @@ function imprimirNoConsole(Mensagem){
     console.log(Mensagem)
 }
 
-imprimirNoConsole("Olá Mundo!")
+imprimirNoConsole("Olá Mundo!");

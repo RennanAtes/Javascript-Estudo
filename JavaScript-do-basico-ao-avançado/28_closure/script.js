@@ -22,3 +22,12 @@ function contador(i){
 let meuContador = contador(5);
 meuContador();
 meuContador();
+
+function multiplicacao(a){
+    return function(b){
+        return a * b
+    }
+}
+let mult = multiplicacao(5)
+
+console.log(mult(4))
